@@ -1,7 +1,7 @@
 # Initialize Project
 cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
 
-project(BuildConfigs LANGUAGES C CXX)
+project(switch-builds LANGUAGES C CXX)
 
 # Set Default Build Type, note CACHE allows for subsequent editing through the cache
 if (NOT CMAKE_BUILD_TYPE)
