@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Find Eigen
+# Find Eigen (Note had to generate Eigen via cmake) (Opened it in Visual Studio to cmake it)
 find_package(Eigen3 3.3 REQUIRED CONFIG)
 
 #include CheckCCXCompilerFlag.cmake standard module file
