@@ -41,5 +41,5 @@ endforeach()
 # Having defined the corresponding variables we configure config.h
 
 # Note need to manually create config.h.in where this will create out config.h
-# Auto creates a header
+# Auto creates a header (config.h)
 configure_file(config.h.in config.h @ONLY)
