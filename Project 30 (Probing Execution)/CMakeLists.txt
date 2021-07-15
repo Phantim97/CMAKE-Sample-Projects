@@ -19,7 +19,8 @@ include(CheckCSourceRuns)
 set(_test_uuid
   "
 #include <uuid/uuid.h>
-int main(int argc, char * argv[]) {
+int main(int argc, char * argv[]) 
+{
   uuid_t uuid;
   uuid_generate(uuid);
   return 0;

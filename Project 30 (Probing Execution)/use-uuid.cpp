@@ -12,7 +12,8 @@
 
 #include <uuid/uuid.h>
 
-int main() {
+int main() 
+{
 	// typedef unsigned char uuid_t[16];
 	uuid_t uuid;
 
